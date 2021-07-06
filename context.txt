@@ -1,1 +1,21 @@
 # NormalizationAssignmentGET940
+
+This database has been designed to emulate ones involved in online fantasy sports tournaments,
+such as Dream 11, Euro 2020 fantasy, Fantasy Premier League etc.
+
+I have considered an Indian player-base in this case. Users can select from a set of real life football
+players (10 shown here) to make a team. Users can also select 1 real life team of their choice (6
+shown here) to be their home team. Users are free to name their club anything they prefer, with no
+constraints on its uniqueness.
+
+The users are rewarded with points at the end of a season based on their team selections and real
+life match results. For e.g, assume a user ‘vishal' has ‘Ronaldo' in his roster, and has ‘NE' as his home
+team. If ‘Ronaldo’ and ‘NE' both perform excellently in the real life season in player and club level
+respectively, ‘vishal' gets a high score. Similarly if both underperform, ‘vishal' gets a low score.
+Ultimately different player-club combinations are used to obtain season points in the range 0-10 for each player.
+
+The users receive sum of all points scored by each player on his/her team.
+
+For sake of competition, 4 virtual leagues on basis of geography, North, South, East and West have
+been created. Users are assigned leagues on the basis of their home team selection, as each real life
+team falls under the 4 zones mentioned above.
