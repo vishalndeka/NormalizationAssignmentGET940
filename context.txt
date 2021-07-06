@@ -19,3 +19,6 @@ The users receive sum of all points scored by each player on his/her team.
 For sake of competition, 4 virtual leagues on basis of geography, North, South, East and West have
 been created. Users are assigned leagues on the basis of their home team selection, as each real life
 team falls under the 4 zones mentioned above.
+
+For sake of simplicity, the database is built from the perspective of the real life player and real life club. A user's points table
+can be easily constructed with the knowledge of his/her entire 11-man roster and home team.
